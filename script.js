@@ -40,7 +40,7 @@ window.setTimeout(offsetAnchor, 1);
 
 // About section text fadeout/in
 $(document).ready(function() {
-  var $p = $('div.about-container p.about-text'), // Select all <p> elements in the <div> with class 'container'
+  var $p = $('div.about-container p.about-text1, div.about-container p.about-text2'), // Select all <p> elements in the <div> with class 'container'
       i = 0; // Initialize a counter
 
   function cycle() {
