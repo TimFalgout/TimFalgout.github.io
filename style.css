@@ -176,6 +176,7 @@ html, body {
 
 .contact-container {
     display: flex;
+    justify-content: space-around;
     width: 1400px;
     max-height: 350px;
     padding-top: 10px;
@@ -183,7 +184,6 @@ html, body {
 }
 
 .contact-text {
-    margin-left: 160px;
     margin-top: 60px;
 }
 
@@ -202,7 +202,6 @@ html, body {
   height: 350px;
   max-width: 700px;
   width: 600px;
-  float: left;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
 
