@@ -86,7 +86,7 @@ html, body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
  }
 
-  .about-text {
+  .about-text1 {
     font-size: 35px;
     line-height: 1.4;
     text-align: center;
@@ -94,13 +94,37 @@ html, body {
     margin-top: 135px;
   }
 
-  .about-text em1 {
+ .about-text1:first-child {
+    display: block;
+  }
+
+  .about-text1 em1 {
     font-size: 45px;
     font-weight: bold;
     line-height: 2.0
   }
 
-  .about-text em {
+  .about-text1 em {
+    font-size: 35px;
+    line-height: 2.0
+  }
+
+  .about-text2 {
+    display: none;
+    font-size: 35px;
+    line-height: 1.4;
+    text-align: center;
+    margin-right: 95px;
+    margin-top: 135px;
+  }
+ 
+  .about-text2 em1 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 2.0
+  }
+
+  .about-text2 em {
     font-size: 35px;
     line-height: 2.0
   }
