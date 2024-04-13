@@ -40,11 +40,11 @@ window.setTimeout(offsetAnchor, 1);
 
 // About section text fadeout/in
 $(document).ready(function() {
-  var $p = $('div.about-container p.about-text1, div.about-container p.about-text2') // Select all <p> elements in the <div> with class 'container'
+  let $p = $('div.about-container p.about-text1, div.about-container p.about-text2') // Select all <p> elements in the <div> with class 'container'
       i = 0; // Initialize a counter
 
   function cycle() {
-      var $current = $p.eq(i); // Get current <p> element
+      let $current = $p.eq(i); // Get current <p> element
 
       $current.fadeIn(1000, function() { // Fade in over 1 second
           $current.delay(6000).fadeOut(1000, function() { // Stay visible for 2 seconds, then fade out over 1 second
