@@ -63,7 +63,7 @@ h1 {
     display: block;
     height: 100px;
     width: 250px;
-    font-size: 25px;
+    font-size: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background: linear-gradient( rgb(32, 178, 170), rgb(32, 178, 180) );
     font-weight: bold;
