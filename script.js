@@ -70,16 +70,16 @@ $(document).ready(() => {
     $('.dropdown-button').on('click', () => {
         let $dropdownContent = $('.dropdown-content');
         if ($dropdownContent.is(':hidden')) {
-            $dropdownContent.slideDown();
+            $dropdownContent.slideDown(100);
         } else {
-            $dropdownContent.slideUp();
+            $dropdownContent.slideUp(100);
         }
     });
  
     $('.dropdown-content a').on('click', event => {
         let selectedText = $(event.target).text();
         $('.dropdown-button').text(selectedText);
-        $('.dropdown-content').slideUp();
+        $('.dropdown-content').slideUp(100);
         event.preventDefault();
     
         showCard(selectedText);
