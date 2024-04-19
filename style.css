@@ -61,8 +61,8 @@ h1 {
 
 .dropdown-wrapper .dropdown-button {
     display: block;
-    height: 50px;
-    width: 240px;
+    height: 100px;
+    width: 250px;
     font-size: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background: linear-gradient( rgb(32, 178, 170), rgb(32, 178, 180) );
@@ -84,9 +84,9 @@ h1 {
 .dropdown-content li {
     display: block;
     list-style: none;
-    font-size: 25px;
+    font-size: 50px;
     min-width: 200px;
-    line-height: 60px;
+    line-height: 100px;
     cursor: pointer;
     text-align: center;
     
