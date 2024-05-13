@@ -1,0 +1,348 @@
+
+body {
+    background-image: url('4795933.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 110px;
+}
+
+
+/* header styling */
+
+.dropdown-button {
+  display: inline-block; 
+} 
+
+
+#ddButton {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 767px) {
+  /* Targets screen sizes below 'md' breakpoint */
+  #ddButton h1 {
+    font-size: 20px;
+  }
+}
+.dropdown-content {
+  list-style-type: none;
+  line-height: 2.8;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+
+}
+
+ul {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#nav-container{
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 106, 255);
+    max-height: 90px;
+    
+}
+
+#nav-container h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    font-family: 'Garamond', 'Times New Roman', 'serif';
+}
+
+@media (max-width: 767px) {
+    /* Targets screen sizes below 'md' breakpoint */
+    #nav-container h1 {
+      font-size: 22px;
+      margin-top: 5px;
+    }
+  }
+  
+/* End header styling */
+
+#adminBingoCardContainer {
+    position: relative;
+    border-radius: 10px;
+}
+/* player name button styling */
+
+#admin-row {
+    text-align: center;
+    padding: 15px;
+}
+
+#admin-button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    
+}
+
+/* End player name button styling */
+
+/* Marked styling */
+.grid-item.marked {
+    background-color: rgba(0, 106, 255, 0.962) !important;
+    color: white !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Bingo Card Styling */
+/* Admin Bingo Card */
+#adminBingoCardContainer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    width: 1200px;
+    height: 800px;
+    justify-content: center;
+    
+} 
+    
+@media (max-width: 767px) {
+    /* Targets screen sizes below 'md' breakpoint */
+    #adminBingoCardContainer{
+        width: 600px;
+        height: 700px;
+        font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* Targets screens below 'sm' breakpoint */
+    #adminBingoCardContainer{
+        width: 420px;
+        height: 700px;
+    }
+  }
+    
+#adminBingoCard {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    
+  }
+  /* GRID ITEM USED FOR ALL BINGO CARDS */
+  .grid-item {
+    background-color: white;
+    border: solid 1px black ;
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  }
+
+  .grid-item:hover {
+    cursor: pointer;
+  }
+
+  @media (max-width: 767px) {
+    /* Targets screen sizes below 'md' breakpoint */
+    .grid-item{
+        font-size: 15px;
+        overflow: hidden;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    /* Targets screens below 'sm' breakpoint */
+    .grid-item {
+        font-size: 12px;
+        overflow: hidden;
+    }
+  }
+  /* END GRID ITEM USED FOR ALL BINGO CARDS */
+
+ /* Michelle's Bingo Card ================================================================================= */
+
+ #michelleBingoCardContainer {
+  position: relative;
+  border-radius: 10px;
+}
+/* player name button styling */
+
+#michelle-row {
+  text-align: center;
+  padding: 15px;
+}
+
+#michelle-button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  margin-top: 20px;
+}
+
+#michelleBingoCardContainer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  width: 1200px;
+  height: 800px;
+  justify-content: center;
+  
+} 
+  
+@media (max-width: 767px) {
+  /* Targets screen sizes below 'md' breakpoint */
+  #michelleBingoCardContainer{
+      width: 600px;
+      height: 700px;
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* Targets screens below 'sm' breakpoint */
+  #michelleBingoCardContainer{
+      width: 420px;
+      height: 700px;
+  }
+}
+  
+#michelleBingoCard {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  
+}
+
+#michelleName {
+  margin-top: 20px;
+}
+
+/* End Michelle Bingo Card */
+
+/* Jan Bingo Card ================================================================================= */
+
+#janBingoCardContainer {
+  position: relative;
+  border-radius: 10px;
+}
+/* player name button styling */
+
+#jan-row {
+  text-align: center;
+  padding: 15px;
+}
+
+#jan-button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  margin-top: 20px;
+}
+
+#janBingoCardContainer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  width: 1200px;
+  height: 800px;
+  justify-content: center;
+  
+} 
+  
+@media (max-width: 767px) {
+  /* Targets screen sizes below 'md' breakpoint */
+  #janBingoCardContainer{
+      width: 600px;
+      height: 700px;
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* Targets screens below 'sm' breakpoint */
+  #janBingoCardContainer{
+      width: 420px;
+      height: 700px;
+  }
+}
+  
+#janBingoCard {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  
+}
+
+#janName {
+  margin-top: 20px;
+}
+
+/* End Jan Bingo Card ========================================================================================== */
+
+/* Tim Bingo Card ================================================================================= */
+
+#timBingoCardContainer {
+  position: relative;
+  border-radius: 10px;
+}
+/* player name button styling */
+
+#tim-row {
+  text-align: center;
+  padding: 15px;
+}
+
+#tim-button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  margin-top: 20px;
+}
+
+#timBingoCardContainer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  width: 1200px;
+  height: 800px;
+  justify-content: center;
+  
+} 
+  
+@media (max-width: 767px) {
+  /* Targets screen sizes below 'md' breakpoint */
+  #timBingoCardContainer{
+      width: 600px;
+      height: 700px;
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* Targets screens below 'sm' breakpoint */
+  #timBingoCardContainer{
+      width: 420px;
+      height: 700px;
+  }
+}
+  
+#timBingoCard {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  
+}
+
+#timName {
+  margin-top: 20px;
+}
+
+/* End Tim Bingo Card ========================================================================================== */
